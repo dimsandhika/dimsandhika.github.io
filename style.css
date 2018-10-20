@@ -1,0 +1,437 @@
+/* Background gambar awal*/
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg { 
+    background-image: url("https://wallpapermemory.com/uploads/441/marvel-background-hd-1080p-322321.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Background gambar choose header */
+.bgh { 
+    background-image: url("https://wallpapermemory.com/uploads/441/marvel-background-hd-1080p-322321.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Background gambar choose footer */
+.bgf {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  background-color: black;
+  color: white;
+  text-align: left;
+}
+
+.bgf p {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+/* Tulisan copyright */
+.bgf .copyright p {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin-top: 30px;
+  margin-left: 1250px;
+  width: 100%;
+}
+
+/* Button gambar */
+.bg .button {
+    border-radius: 4px;
+    background-color: #535251;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 635px;
+    margin-left: 550px;
+  }
+  
+.bg .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.bg .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.bg .button:hover span {
+    padding-right: 25px;
+  }
+  
+.bg .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+/* Header awal logo */
+.topnav {
+    background-color: rgb(85, 81, 81);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/* Isian dalam kolom atas */
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.cardatas {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  background-image: url("photographer.jpg");
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Isian dalam kolom bawah */
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+      width: 100%;
+      display: block;
+  }
+}
+
+.cardbawah {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 150px;
+  margin-bottom: 300px;
+}
+
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+body, html {
+height: 100%;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.bg-image {
+background-image: url("photographer.jpg");
+filter: blur(8px);
+-webkit-filter: blur(8px);
+height: 100%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.bg-text {
+background-color: rgb(0,0,0); /* Fallback color */
+background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+color: white;
+font-weight: bold;
+border: 3px solid #f1f1f1;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 80%;
+padding: 20px;
+text-align: center;
+}
+
+/* Background blur cable */
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-imagec {
+    background-image: url("https://www.sideshowtoy.com/wp-content/uploads/2018/06/CABLE_post_master-960x540.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-textc {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    height: 50%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Background blur nova */
+  body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-imagen {
+    background-image: url("https://wallup.net/wp-content/uploads/2018/03/19/587136-Richard_Rider-Nova-Marvel_Comics.jpg");
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-textn {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    height: 55%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Background blur red hulk */
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-imager {
+    background-image: url("https://cdn.shopify.com/s/files/1/0389/9809/products/Marvel_20Alternate_20Universe_20Red_20Hulk_20Venom_2024x36_20Poster.jpg?v=1467137145");
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-textr {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    height: 50;
+    padding: 20px;
+    text-align: center;
+  }
+
+/* Background blur adam warlock */
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-imagea {
+    background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/Adam-Warlock-Marvel-Annhilation-Conquest-6-Cover-Keyes-Edit.jpg?q=50&fit=crop&w=798&h=407&dpr=1.5");
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-texta {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    height: 70%;
+    padding: 20px;
+    text-align: center;
+  }
